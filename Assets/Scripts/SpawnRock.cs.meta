@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bffbedd01792a804ebca97f530a41f90
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rock: {fileID: 100000, guid: 55d49cfe8e9178a41a17b090e27f94f7, type: 2}
+  - suelo1: {fileID: 100000, guid: dcb706cf916e23a4d98a13455d6a05f3, type: 2}
+  - suelo2: {fileID: 100000, guid: dde62145129b37a40952f4de0cdd0ce9, type: 2}
+  - coiny: {fileID: 100000, guid: ade11a35b2b1e1e459d1d03f8b92946a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

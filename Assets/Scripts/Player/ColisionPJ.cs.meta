@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5c12e2bdffb61934889a80d3aa6a0dbf
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - blood: {fileID: 100000, guid: 9ed6bacc5b525634cb05925b3da3940a, type: 2}
+  - coin: {fileID: 100000, guid: a1863dbb23b2bf443935a480dc43b6ff, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
