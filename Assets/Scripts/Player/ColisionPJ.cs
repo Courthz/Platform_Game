@@ -8,6 +8,7 @@ public class ColisionPJ : MonoBehaviour {
 	//public GameObject coin;
 	//public TextMesh counterCoins;
 	public DetectDeadZone dead;
+	public MoveConstructor move;
 	//int counterCoinss = 0;
 	
 	void OnTriggerEnter(Collider other) {
@@ -37,7 +38,10 @@ public class ColisionPJ : MonoBehaviour {
 			Destroy (other.gameObject);
 
 			counterCoins.text = (counterCoinss += 1).ToString();
-		}*/	
+		}*/
+
+		if (other.tag == "Dash" && move.dash == true)
+			move.directionDash = new Vector3 (-move.directionDash.x, move.directionDash.y, move.directionDash.z); //rebote de direccion en el dash
 
 		if ((other.tag == "Boss") || (other.tag == "Enemy")) {
 
